@@ -1,4 +1,4 @@
-![Illustration: Cookie notice GDPR Plugin for WordPress](https://ps.w.org/inventivo-remove-widget-title/assets/banner-772x250.jpg?rev=1881239)
+![Illustration: Cookie notice GDPR Plugin for WordPress](https://ps.w.org/remove-widget-title-inventivo/assets/banner-772x250.png?rev=1954399)
 
 # Remove Widget Title | inventivo
 
@@ -20,11 +20,6 @@ Remove Widget Title Plugin now!
 
 **Get your copy of the Cookie notice GDPR Plugin now!**
 
-## Screenshots
-
-![Illustration: Cookie notice GDPR Plugin for WordPress - Screenshot 1](https://ps.w.org/inventivo-remove-widget-title/trunk/screenshot-1.png?rev=1943671)
-
-![Illustration: Cookie notice GDPR Plugin for WordPress - Screenshot 2](https://ps.w.org/inventivo-remove-widget-title/trunk/screenshot-2.png?rev=1943671)
 
 ### Prerequisites
 
