@@ -1,8 +1,10 @@
-![Illustration: Cookie notice GDPR Plugin for WordPress](https://ps.w.org/remove-widget-title-inventivo/assets/banner-772x250.png?rev=1954399)
+![Illustration: Remove Widget Title Plugin for WordPress](https://ps.w.org/remove-widget-title-inventivo/assets/banner-772x250.png?rev=1954399)
 
 # Remove Widget Title | inventivo
 
 This plugin allows you to remove a specific widget title by writing ! into the widget's title field.
+
+![Illustration: Remove Widget Title Plugin for WordPress](https://ps.w.org/remove-widget-title-inventivo/assets/screenshot-1.png?rev=1954399)
 
 Visit our <a href="https://www.inventivo.de/wordpress-agentur/wordpress-plugins">website</a> in order to find more handy and free WordPress plugins.
 
