@@ -8,7 +8,7 @@ Author:       Nils Harder
 Author URI:   https://www.inventivo.de
 Tags: remove widget title
 Requires at least: 3.0
-Tested up to: 4.9.8
+Tested up to: 5.2.2
 Stable tag: 0.0.2
 Text Domain: inventivo-remove-widget-title
 Domain Path: /languages
