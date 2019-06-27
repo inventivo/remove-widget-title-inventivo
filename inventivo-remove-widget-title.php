@@ -3,13 +3,13 @@ Contributors: inventivogermany
 Plugin Name:  Remove Widget Title | inventivo
 Plugin URI:   https://www.inventivo.de/wordpress-agentur/wordpress-plugins
 Description:  Remove specific widget titles
-Version:      0.0.2
+Version:      0.0.3
 Author:       Nils Harder
 Author URI:   https://www.inventivo.de
 Tags: remove widget title
 Requires at least: 3.0
 Tested up to: 5.2.2
-Stable tag: 0.0.2
+Stable tag: 0.0.3
 Text Domain: inventivo-remove-widget-title
 Domain Path: /languages
 License:      GPL2
@@ -30,15 +30,26 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-if ( ! defined( 'ABSPATH' ) ) {
+if (!defined('ABSPATH')) {
 	exit;
 }
 
-//Remove Widget Title Function
-add_filter( 'widget_title', 'inv_remove_widget_title' );
-function inv_remove_widget_title( $widget_title ) {
-	if ( substr ( $widget_title, 0, 1 ) == '!' )
-		return;
-	else
-		return ( $widget_title );
+class InventivoRemoveWidgetTitle
+{
+    public function __construct()
+    {
+        add_action('widget_title', array( $this, 'invRemoveWidgetTitle' ));
+    }
+    
+    public function invRemoveWidgetTitle($widgetTitle)
+    {
+        if (substr($widgetTitle, 0, 1) == '!') {
+            return;
+        } else {
+            return($widgetTitle);
+        }
+    }
 }
+
+$inventivoRemoveWidgetTitle = new InventivoRemoveWidgetTitle();
+
