@@ -38,7 +38,7 @@ class InventivoRemoveWidgetTitle
 {
     public function __construct()
     {
-        add_action('widget_title', array( $this, 'invRemoveWidgetTitle' ));
+        add_action('widget_title', array($this, 'invRemoveWidgetTitle'));
     }
     
     public function invRemoveWidgetTitle($widgetTitle)
